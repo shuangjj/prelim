@@ -1,0 +1,125 @@
+\documentclass[a4paper, 12pt]{article}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{algorithmic}
+\usepackage{algorithm}
+\usepackage{graphicx}
+\usepackage{url}
+
+\usepackage{xcolor}
+\definecolor{airforceblue}{rgb}{0.36, 0.54, 0.66}
+
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=airforceblue,
+}
+%% page margin
+\usepackage[top=0.8in, bottom=1in]{geometry}
+
+\usepackage{fancyvrb, color}
+
+%%************************************************ Setup *****************************************/
+%% Set the vertical layout of float pages
+\makeatletter	
+\setlength{\@fptop}{0pt}	% Distance from top of page to first float
+\setlength\@fpsep{15pt}		% Separation between floats
+\makeatother
+
+
+% *** Roman Numbers ***
+\makeatletter
+\newcommand*{\rom}[1]{\expandafter\@slowromancap\romannumeral #1@}
+\makeatother
+
+%%********************************************* Metadata *****************************************/
+\title{\vskip -4ex Preliminary \rom{1}	: Secure Data Storage and Communications on Android Mobile Devices  
+\vspace{-1ex}}
+\author{ \href{http://astro.temple.edu/~tue68607/}{Shuang Liang}}
+\date{SERC Room 302, Dec. 5, 2014, 10:00 am - 12:00 pm.}
+
+%%****************************************** Document Entry **************************************/
+\begin{document}
+
+\maketitle
+
+\vskip -8ex
+\begin{flalign*}
+Advisory \text{ } Committee:\text{ } 
+& \href{http://www.cis.temple.edu/~xjdu/}{Dr. Xiaojiang Du(Advisor)}, \\
+& \href{http://www.cis.temple.edu/~cctan/}{Dr. Chiu C. Tan}, \\
+& \href{http://www.dabi.temple.edu/~hbling/}{Dr. Haibin Ling}
+\end{flalign*}
+
+%\noindent
+%\tableofcontents
+%\listoffigures
+%\clearpage
+
+%The goal of the prelims is to test the research skills and knowledge of the student and the appropriateness and feasibility of %the proposed research.
+%
+%The prelims focus on:
+%1. Testing advanced track knowledge
+%2. Testing in-depth knowledge in the selected research area
+%3. Ensuring that the selected research problem is of reasonable scope and significance
+%4. Ensuring that the proposed dissertation is feasible
+
+%Prelim I will include at least items 1 and 2.
+%Prelim I consists of written and oral components testing advanced track knowledge and in-depth knowledge of the research area %and includes a literature review of the area. In conjunction with items 1 and 2 Prelim I will also be used to determine %whether the student needs to take additional courses in order to support research in the chosen area. Prelim I is open only to %the committee and to members of the department.
+% 
+%Students must be registered for at least 1 credit of CIS 9994 Preliminary Exam Preparation in the semester in which the %examination is taken
+%%=============================================================================
+%% Abstract
+%%=============================================================================
+\begin{abstract}
+We have seen more mobile devices shipped than traditional desktop PCs recent years. And Android system 
+is one of the mobile operating systems that are aggressively occupying the mobile devices market. 
+However, Android system is not mature and robust to attacks. The market share surge of Android system while having many secure vulnerabilities makes the task of keeping the system safe, private preserving and usable very urgent for mobile 
+companies such as Google and Samsung as well as researchers that are interested in mobile system security.
+ This motivates us to enhance Android system in the privacy and security perspectives.
+
+At this phase of the preliminary project, I have got lots experience about mobile system security including Android malware detection, privacy preserving and 
+exploiting resources on Android devices to obtain ambient context information. I will review the literatures related to Android framework vulnerabilities, malware detection and other secure issues. I will also share my experience in 
+detecting Android malware based on permission combinations, detecting and blocking background SMS messages and phone calls, and recognizing context information using mobile sensors.
+
+Supported by the knowledge of Android security and the previous research experience, I want to study the 
+security issues of data storage and transmission on Android system. As the penetration of mobile devices to every aspects of our daily life such as health, economy, social relations, and business, we put more and more personal 
+information on the mobile phones. These data will further be transmitted to remote servers or cloud through 
+mobile devices. Therefore, secure storage and transmission of these data is extremely important and necessary for 
+us. I will review the existing security issues about data storage and transmission on Android platform and introduce the 
+specific research topic I will be working on for my preliminary examination.
+
+\end{abstract}
+%%=============================================================================
+%% Phase 2
+%%=============================================================================
+%\section{Phase I: DBMS Scheme Creation}
+
+%%-----------------------------------------------------------------------------
+%% 
+%%-----------------------------------------------------------------------------
+
+%%=============================================================================
+%% Phase 2
+%%=============================================================================
+
+
+%%------------------------------------------------------------------------------
+%% References
+%%------------------------------------------------------------------------------
+%\begin{thebibliography}{99}
+
+%\end{thebibliography}
+%%-----------------------------------------------------------------------------
+%% Revision History
+%%-----------------------------------------------------------------------------
+%{\noindent
+%\large \textbf{Revision History}}
+%\vspace{-1ex}
+%\begin{enumerate}[leftmargin=*, label=\fbox{\arabic*}]
+%\item 00/00/13: Document created.
+%\end{enumerate}
+\end{document}

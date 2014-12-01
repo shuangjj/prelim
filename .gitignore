@@ -1,0 +1,8 @@
+# Tex generated files
+*.aux
+*.lof
+*.log
+*.out
+*.toc
+*.swp
+*.pdf
